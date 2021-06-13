@@ -15,13 +15,10 @@ module.exports = {
   organizationName: 'worst0', // Usually your GitHub org/user name.
   projectName: 'worst0.github.io', // Usually your repo name.
   themeConfig: {
-/*
     footer: {
       
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
-    */
-
     sidebarCollapsible: true, //默认折叠
     image: 'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png',
     algolia: {
@@ -38,8 +35,6 @@ module.exports = {
     },
 
 
-    
-    
     colorMode: {
       // "light" | "dark"
       //defaultMode: "dark",
@@ -78,74 +73,39 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
-        //{
-        //  type: 'doc',
-        //  docId: 'intro',
-        //  position: 'left',
-        //  label: 'Tutorial',
-        //},
         {
-            to: '/blog', 
-            label: '博客', 
-            position: 'right'
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Tutorial',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: "blog",
+          label: "博客",
+          position: "right",
+        },
+        {
+          href: 'https://github.com/worst0/',
           label: 'GitHub',
           position: 'right',
         },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
+          href: "http://digest.wiki-power.com/",
+          label: "书摘",
+          position: "right",
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
+          href: "https://nav.wiki-power.com/",
+          label: "友链 & 导航站",
+          position: "right",
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
 
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/gh/worst0/wiki/static/katex/v0.12.0/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/gh/worst0/wiki_note/static/katex/v0.12.0/katex.min.css',
       type: 'text/css',
       integrity:
         'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
@@ -154,16 +114,15 @@ module.exports = {
   ],
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
           routeBasePath: "/",
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: "https://github.com/worst0/wiki_note/edit/main/",
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -176,7 +135,7 @@ module.exports = {
           // Please change this to your repo.
           path: 'blog',
           blogSidebarTitle: 'Recent',
-          editUrl: 'https://github.com/worst0/wiki/edit/main/',
+          editUrl: 'https://github.com/worst0/wiki_note/edit/main/',
           //editUrl:
             //'https://github.com/facebook/docusaurus/edit/master/website/blog/',
           /*
@@ -190,18 +149,9 @@ module.exports = {
           */
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
-  //stylesheets: [
-  //   {
-  //     href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
-  //     type: 'text/css',
-  //     integrity:
-  //       'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
-  //     crossorigin: 'anonymous',
-  //   },
-  // ],
 };

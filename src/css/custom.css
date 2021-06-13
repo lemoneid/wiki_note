@@ -17,6 +17,18 @@
   --ifm-code-font-size: 95%;
 }
 
+.DocSearch-Button-Key {
+	display: none !important;
+}
+
+/* 去掉侧边栏右侧的分割线 */
+.main-wrapper>div>div {
+	border-right: none !important;
+}
+
+/* 隐藏 scrollbar */
+::-webkit-scrollbar {display:none;}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
