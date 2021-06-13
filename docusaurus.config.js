@@ -66,7 +66,7 @@ module.exports = {
     },
 
     navbar: {
-      title: "worst's Wiki",
+      title: "Worst's Wiki",
       hideOnScroll: false,
       logo: {
         alt: 'Wiki logo',
@@ -76,12 +76,19 @@ module.exports = {
         {
           type: 'doc',
           docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+          position: 'right',
+          label: 'Document',
         },
+
+        //{
+        //  type: 'doc',
+        //  label: 'Document',
+        //  activeBasePath: 'docs',
+        //  position: 'left',
+        //},
         {
           to: "blog",
-          label: "博客",
+          label: "Blog",
           position: "right",
         },
         {
@@ -105,7 +112,8 @@ module.exports = {
 
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/gh/worst0/wiki_note/static/katex/v0.12.0/katex.min.css',
+      //href: 'https://cdn.jsdelivr.net/gh/worst0/wiki_note/static/katex/v0.12.0/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
       type: 'text/css',
       integrity:
         'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
