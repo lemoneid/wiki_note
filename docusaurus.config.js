@@ -5,7 +5,7 @@ const katex = require('rehype-katex');
 module.exports = {
   title: "Worst's Wiki",
   //titleDelimiter: "🦖", // Defaults to `|`
-  tagline: 'Mind of Peace',
+  tagline: 'Peace of Mind',
   url: 'https://worst0.github.io',
   baseUrl: '/',
   //onBrokenLinks: 'throw',
@@ -22,8 +22,10 @@ module.exports = {
     sidebarCollapsible: true, //默认折叠
     image: 'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png',
     algolia: {
-      apiKey: "5c07d8bf9c9928c4453857f6cad0420e",
-      indexName: "wiki-power",
+      //apiKey: "5c07d8bf9c9928c4453857f6cad0420e",
+      apiKey: "2798aff80e23307b33f6b98d019e5795",
+      //indexName: "wiki-power",
+      indexName: "wikiNoteSearch",
 
       // Optional: see doc section bellow
       contextualSearch: true,
@@ -37,7 +39,7 @@ module.exports = {
 
     colorMode: {
       // "light" | "dark"
-      //defaultMode: "dark",
+      defaultMode: "dark",
       disableSwitch: false,
       respectPrefersColorScheme: true,
 

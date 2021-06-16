@@ -13,14 +13,19 @@ const features = [
     description: <>This is my Wikipedia</>,
   },
   {
-    title: "Mind of Peace",
+    title: "Peace of Mind",
     // imageUrl: "img/undraw_docusaurus_tree.svg",
     description: <>Think independently, know yourself, just seek peace of mind </>,
   },
   {
     title: "Skill",
     // imageUrl: "img/undraw_docusaurus_react.svg",
-    description: <>Linux, Alogrithm, Data Structure, Server, Networt, Desiner, Program</>,
+    description: <>
+      1.Linux, 2.Algorithm, 3.Online_Judge, 4.Programming_Language,
+      5.Operating_System, 6.Network, 7.Server, 8.SQL,
+      9.Programming_Stardard, 10.Skill, 11.Interview,
+      Reading Notes, Self-knowledge
+      </>
   },
 ];
 
@@ -57,7 +62,8 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/")}
+              //to={useBaseUrl("docs/")}
+              to={useBaseUrl("intro/")}
             >
               点击开始
             </Link>
