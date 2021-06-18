@@ -11,7 +11,7 @@ module.exports = {
   //onBrokenLinks: 'throw',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  //favicon: 'img/favicon.ico',
   organizationName: 'worst0', // Usually your GitHub org/user name.
   projectName: 'worst0.github.io', // Usually your repo name.
   themeConfig: {
@@ -21,20 +21,20 @@ module.exports = {
     },
     sidebarCollapsible: true, //默认折叠
     image: 'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png',
-    algolia: {
-      //apiKey: "5c07d8bf9c9928c4453857f6cad0420e",
-      apiKey: "2798aff80e23307b33f6b98d019e5795",
-      //indexName: "wiki-power",
-      indexName: "wikiNoteSearch",
+    //algolia: {
+    //  //apiKey: "5c07d8bf9c9928c4453857f6cad0420e",
+    //  apiKey: "2798aff80e23307b33f6b98d019e5795",
+    //  //indexName: "wiki-power",
+    //  indexName: "wikiNoteSearch",
 
-      // Optional: see doc section bellow
-      contextualSearch: true,
+    //  // Optional: see doc section bellow
+    //  contextualSearch: true,
 
-      // Optional: Algolia search parameters
-      searchParameters: {},
+    //  // Optional: Algolia search parameters
+    //  searchParameters: {},
 
-      //... other Algolia params
-    },
+    //  //... other Algolia params
+    //},
 
 
     colorMode: {
@@ -146,9 +146,6 @@ module.exports = {
           path: 'blog',
           blogSidebarTitle: 'Recent',
           editUrl: 'https://github.com/worst0/wiki_note/edit/main/',
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-          /*
           feedOptions: {
             type: 'all', // required. 'rss' | 'feed' | 'all'
             title: 'Power\'s Blog', // default to siteConfig.title
