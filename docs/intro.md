@@ -1,35 +1,42 @@
 ---
-sidebar_position: 1
+id : intro
+title : intro
+sidebar_position: 0
+typora-root-url : ../
 ---
 
-# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Introduction
+---
 
-## Getting Started
+## Readme
+> <Highlight color="#CCCCCC"><b>这个世界虽然不那么美好,但仍然值得奋斗。</b></Highlight>
 
-Get started by **creating a new site**.
+- [![Github](https://img.shields.io/badge/Github-worst0-green)](https://github.com/worst0)
+- [![Email](https://img.shields.io/badge/Email-yanzw-green)](mailto:yanzw@pm.me)
 
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
 
-## Generate a new site
+##  Self-knowledge
 
-Generate a new Docusaurus site using the **classic template**:
+- Think independently
+- Know yourself
+- Just seek peace of mind 
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
 
-## Start your site
 
-Run the development server:
+## Document
 
-```shell
-cd my-website
+- 1.Linux, 2.Algorithm, 3.Online_Judge, 4.Programming_Language, 
+- 5.Operating_System, 6.Network, 7.Server, 8.SQL,
+- 9.Programming_Stardard,  10.Skill
 
-npx docusaurus start
-```
 
-Your site starts at `http://localhost:3000`.
 
-## Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+
+
+export const Highlight = ({children, color}) => ( <span style={{
+    backgroundColor: color,
+    borderRadius: '2px',
+    color: 'Black',
+    padding: '0.2rem',
+}}>{children}</span> );

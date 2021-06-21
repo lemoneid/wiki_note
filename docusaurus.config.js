@@ -8,17 +8,13 @@ module.exports = {
   tagline: 'Peace of Mind',
   url: 'https://worst0.github.io',
   baseUrl: '/',
-  //onBrokenLinks: 'throw',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-  //favicon: 'img/favicon.ico',
+  onBrokenMarkdownLinks: 'throw',
+
+  favicon: 'img/favicon.ico',
   organizationName: 'worst0', // Usually your GitHub org/user name.
   projectName: 'worst0.github.io', // Usually your repo name.
   themeConfig: {
-    footer: {
-      
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
     sidebarCollapsible: true, //默认折叠
     image: 'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png',
     //algolia: {
@@ -75,42 +71,56 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+
+       // {
+       //   to: 'docs/',
+       //   activeBasePath: 'wiki_note',
+       //   label: 'Doodles🎨',
+       //   position: 'left',
+       // },
+          //
         {
           type: 'doc',
           docId: 'intro',
-          position: 'right',
-          label: 'Document',
+          position: 'left',
+          label: 'Document💻',
         },
-
-        //{
-        //  type: 'doc',
-        //  label: 'Document',
-        //  activeBasePath: 'docs',
-        //  position: 'left',
-        //},
         {
           to: "blog",
-          label: "Blog",
-          position: "right",
+          label: 'Blog🤓',
+          position: "left",
         },
+        {
+          to: '/ReadingNotes/A1.Sentence',
+          //activeBasePath: 'docs',
+          label: 'Reading-Book📚',
+          position: 'left',
+        },
+
         {
           href: 'https://github.com/worst0/',
           label: 'GitHub',
           position: 'right',
         },
+        //{
+        //  href: "https://nav.wiki-power.com/",
+        //  label: "友链 & 导航站",
+        //  position: "right",
+        //},
         {
-          href: "http://digest.wiki-power.com/",
-          label: "书摘",
-          position: "right",
+          href: 'https://github.com/worst0/wiki_note',  // 如果要跳转链接则使用 herf
+          label: '本站源码',
+          position: 'right',
         },
-        {
-          href: "https://nav.wiki-power.com/",
-          label: "友链 & 导航站",
-          position: "right",
-        },
+
       ],
     },
+    footer: {
+      
+      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+    },
   },
+
 
   stylesheets: [
     {
@@ -137,15 +147,15 @@ module.exports = {
           rehypePlugins: [katex],
         },
         blog: {
-          //blogTitle: 'Power\'s blog!',
+          //blogTitle: 'My Blog!',
           //blogDescription: 'A docusaurus powered blog!',
           blogSidebarCount: 8,
           postsPerPage: 8,
           showReadingTime: false,
-          // Please change this to your repo.
           path: 'blog',
           blogSidebarTitle: 'Recent',
           editUrl: 'https://github.com/worst0/wiki_note/edit/main/',
+          /*
           feedOptions: {
             type: 'all', // required. 'rss' | 'feed' | 'all'
             title: 'Power\'s Blog', // default to siteConfig.title

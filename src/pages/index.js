@@ -63,7 +63,7 @@ function Home() {
                 styles.getStarted
               )}
               //to={useBaseUrl("docs/")}
-              to={useBaseUrl("intro/")}
+              to={useBaseUrl("blog/")}
             >
               点击开始
             </Link>
