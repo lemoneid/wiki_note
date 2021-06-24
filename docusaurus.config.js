@@ -98,6 +98,13 @@ module.exports = {
         },
 
         {
+          to: '/Xmind_IMG/1.解题思维', 
+          //activeBasePath: 'docs',
+          label : "Xmind🎮",
+          position: 'left',
+        },
+
+        {
           href: 'https://github.com/worst0/',
           label: 'GitHub',
           position: 'right',

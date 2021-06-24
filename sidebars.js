@@ -294,10 +294,41 @@ module.exports = {
             label: "",
             collapsed: true,
             items: [
-
-
             ],
         },
+    ],
+},
+
+"Xmind🎮" : {  
+    "Xmind_IMG" : [
+        "Xmind_IMG/1.解题思维",
+        "Xmind_IMG/2.系统网络原理",
+        "Xmind_IMG/3.C++OPP",
+        "Xmind_IMG/4.Linux命令",
+    ],
+    
+    "demo"  :[
+    {      
+        type: 'link',
+        label: 'C++', 
+        href: '/Xmind/C++&&OPP.svg', 
+    },  
+    {
+        type: 'link',
+        label: 'Linux',
+        href : 'Linux命令.svg',
+    },
+    {      
+        type: 'link',
+        label: 'OS&Network', 
+        href: '/Xmind/系统&网络原理.svg', 
+    },  
+    {      
+        type: 'link',
+        label: 'math', 
+        href: '/Xmind/解题思维.svg', 
+    },  
+        
     ],
 },
 
