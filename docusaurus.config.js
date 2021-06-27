@@ -12,7 +12,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'throw',
 
   favicon: 'img/favicon.ico',
-  organizationName: 'yanzw', // Usually your GitHub org/user name.
+  organizationName: 'yanzhw', // Usually your GitHub org/user name.
   projectName: 'yanzhw.github.io', // Usually your repo name.
   themeConfig: {
     sidebarCollapsible: true, //默认折叠

@@ -15,7 +15,11 @@ const features = [
   {
     title: "Peace of Mind",
     // imageUrl: "img/undraw_docusaurus_tree.svg",
-    description: <>Think independently, know yourself, just seek peace of mind </>,
+    description: <>
+      Think independently, 
+      know yourself, 
+      just seek peace of mind 
+    </>,
   },
   {
     title: "Skill",

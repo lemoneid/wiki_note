@@ -102,6 +102,16 @@ module.exports = {
             ],
         },
 
+        {
+            type: "category",
+            label: "数学",
+            collapsed: true,
+            items: [
+                "Algorithm/E1.concrete",
+                "Algorithm/E2.Combinatorics",
+            ],
+        },
+
     ], 
 
     "3.Online_Judge": [
@@ -307,6 +317,39 @@ module.exports = {
         "Xmind_IMG/4.Linux命令",
     ],
     
+    "svg"  :[
+    {      
+        type: 'link',
+        label: 'C++', 
+        href: 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/svg/C++&&OPP.svg', 
+    },  
+    {
+        type: 'link',
+        label: 'Linux',
+        href : 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/svg/Linux命令.svg',
+    },
+    {      
+        type: 'link',
+        label: 'OS&Network', 
+        href: 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/svg/系统&网络原理.svg', 
+    },  
+    {      
+        type: 'link',
+        label: 'math', 
+        href: 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/svg/解题思维.svg', 
+    },  
+        
+    {      
+        type: 'link',
+        label: 'C++', 
+        href: 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/pdf/C++&&OPP.pdf', 
+    },  
+    {
+        type: 'link',
+        label: 'Linux',
+        href : 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/pdf/Linux命令.pdf',
+    },
+    ],
     "demo"  :[
     {      
         type: 'link',
@@ -316,7 +359,7 @@ module.exports = {
     {
         type: 'link',
         label: 'Linux',
-        href : 'Linux命令.svg',
+        href : '/Xmind/Linux命令.svg',
     },
     {      
         type: 'link',

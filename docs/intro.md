@@ -5,14 +5,13 @@ sidebar_position: 0
 typora-root-url : ../
 ---
 
+# Readme
+-----
+## Introduction
 
-# Introduction
----
-
-## Readme
 > <Highlight color="#CCCCCC"><b>这个世界虽然不那么美好,但仍然值得奋斗。</b></Highlight>
 
-- [![Github](https://img.shields.io/badge/Github-worst0-green)](https://github.com/worst0)
+- [![Github](https://img.shields.io/badge/Github-yanzhw-green)](https://github.com/yanzhw)
 - [![Email](https://img.shields.io/badge/Email-yanzw-green)](mailto:yanzw@pm.me)
 
 
@@ -31,6 +30,8 @@ typora-root-url : ../
 - 9.Programming_Stardard,  10.Skill
 
 
+
+![](https://cdn.jsdelivr.net/gh/worst0/picture/wallhaven-43wgzv.jpg)
 
 
 
