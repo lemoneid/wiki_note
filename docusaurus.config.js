@@ -6,14 +6,14 @@ module.exports = {
   title: "My Wiki",
   //titleDelimiter: "🦖", // Defaults to `|`
   tagline: 'Peace of Mind',
-  url: 'https://yanzhw.github.io',
+  url: 'https://worst0.github.io',
   baseUrl: '/',
+  // error warn throw
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'throw',
-
   favicon: 'img/favicon.ico',
-  organizationName: 'yanzhw', // Usually your GitHub org/user name.
-  projectName: 'yanzhw.github.io', // Usually your repo name.
+  organizationName: 'worst0', // Usually your GitHub org/user name.
+  projectName: 'worst0.github.io', // Usually your repo name.
   themeConfig: {
     sidebarCollapsible: true, //默认折叠
     image: 'https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png',
@@ -105,7 +105,7 @@ module.exports = {
         },
 
         {
-          href: 'https://github.com/yanzhw/',
+          href: 'https://github.com/worst0/',
           label: 'GitHub',
           position: 'right',
         },
@@ -115,7 +115,7 @@ module.exports = {
         //  position: "right",
         //},
         {
-          href: 'https://github.com/yanzhw/wiki_note',  // 如果要跳转链接则使用 herf
+          href: 'https://github.com/worst0/wiki_note',  // 如果要跳转链接则使用 herf
           label: '本站源码',
           position: 'right',
         },
@@ -148,7 +148,7 @@ module.exports = {
           // Please change this to your repo.
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
-          editUrl: "https://github.com/yanzhw/wiki_note/edit/main/",
+          editUrl: "https://github.com/worst0/wiki_note/edit/main/",
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -160,7 +160,7 @@ module.exports = {
           showReadingTime: false,
           path: 'blog',
           blogSidebarTitle: 'Recent',
-          editUrl: 'https://github.com/yanzhw/wiki_note/edit/main/',
+          editUrl: 'https://github.com/worst0/wiki_note/edit/main/',
           /*
           feedOptions: {
             type: 'all', // required. 'rss' | 'feed' | 'all'

@@ -11,7 +11,7 @@ typora-root-url : ../
 
 > <Highlight color="#CCCCCC"><b>这个世界虽然不那么美好,但仍然值得奋斗。</b></Highlight>
 
-- [![Github](https://img.shields.io/badge/Github-yanzhw-green)](https://github.com/yanzhw)
+- [![Github](https://img.shields.io/badge/Github-worst0-green)](https://github.com/yanzhw)
 - [![Email](https://img.shields.io/badge/Email-yanzw-green)](mailto:yanzw@pm.me)
 
 
@@ -25,9 +25,16 @@ typora-root-url : ../
 
 ## Document
 
-- 1.Linux, 2.Algorithm, 3.Online_Judge, 4.Programming_Language, 
-- 5.Operating_System, 6.Network, 7.Server, 8.SQL,
-- 9.Programming_Stardard,  10.Skill
+- Linux
+- Algorithm
+- Online_Judge
+- Programming_Language,
+- Programming_Stardard
+- Operating_System
+- Network
+- Server
+- SQL
+- Skill
 
 
 

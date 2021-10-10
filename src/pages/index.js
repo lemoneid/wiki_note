@@ -25,9 +25,11 @@ const features = [
     title: "Skill",
     // imageUrl: "img/undraw_docusaurus_react.svg",
     description: <>
-      1.Linux, 2.Algorithm, 3.Online_Judge, 4.Programming_Language,
-      5.Operating_System, 6.Network, 7.Server, 8.SQL,
-      9.Programming_Stardard, 10.Skill, 11.Interview,
+      1.Linux, 2.Algorithm, 3.Online_Judge, 
+      4.Programming_Language, 5.Programming_Stardard, 
+      6.Operating_System, 7.Network, 
+      8.Server, 9.SQL,
+      10.Skill, 11.Interview,
       Reading Notes, Self-knowledge
       </>
   },

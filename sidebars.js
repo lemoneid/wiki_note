@@ -45,15 +45,16 @@ module.exports = {
         }
     ],
 
+
     "1.Linux": [
         {
             type: "category",
-            label: "Linux 命令",
+            label: "Linux命令",
             collapsed: true,
             items: [
                 "Linux/A1.linux基础",
                 "Linux/A2.Linux命令",
-                "Linux/A3.压缩",
+                "Linux/A3.编译环境",
                 "Linux/A4.数据提取",
                 "Linux/A5.Linux命令补充",
             ],
@@ -61,10 +62,21 @@ module.exports = {
 
         {
             type: "category",
+            label: "调试相关",
+            collapsed: true,
+            items: [
+                "Linux/D1.网络相关",
+                "Linux/D2.C-C++调试工具",
+            ],
+        },
+
+
+        {
+            type: "category",
             label: "shell脚本",
             collapsed: true,
             items: [
-                "Linux/shell脚本语法",
+                "Linux/B1.shell脚本语法",
             ],
         },
 
@@ -82,12 +94,28 @@ module.exports = {
     ],
 
     "2.Algorithm": [
+
         {
             type: "category",
             label: "数据结构",
             collapsed: true,
             items: [
-                "Algorithm/A1.DataStructure",
+        "Algorithm/A1.DataStructure",
+        "Algorithm/A2.数组和链表",
+        "Algorithm/A3.栈和队列",
+        "Algorithm/A4.堆和优先队列",
+        "Algorithm/A5.哈夫曼树",
+        "Algorithm/A6.哈希表",
+        "Algorithm/A7.排序",
+        "Algorithm/A7.树",
+        "Algorithm/A8.字符串匹配",
+        "Algorithm/A10.字典树",
+        "Algorithm/A10.树状数组和线段树",
+        "Algorithm/A11.平衡树",
+        "Algorithm/A11.并查集",
+        "Algorithm/A12.图论",
+        "Algorithm/A15.位图和跳表",
+        "Algorithm/A99.实现ADT",
             ],
         },
 
@@ -96,48 +124,68 @@ module.exports = {
             label: "算法设计",
             collapsed: true,
             items: [
-                "Algorithm/B1.算法设计",
-                "Algorithm/C1.Algorithm",
-                "Algorithm/D1.ACM模板",
+        "Algorithm/B1.算法分析",
+        "Algorithm/B10.数论",
+        "Algorithm/B11.位运算",
+        "Algorithm/B12.计算几何",
+        "Algorithm/B13.网络流",
+        "Algorithm/B2.贪心",
+        "Algorithm/B3.递推到递归",
+        "Algorithm/B4.动态规划",
+        "Algorithm/B5.分治",
+        "Algorithm/B6.减治和双指针",
+        "Algorithm/B7.回溯",
+        "Algorithm/B8.搜索",
+        "Algorithm/B9.数学",
+        "Algorithm/B98.字符串",
+        "Algorithm/B99.专题",
+        "Algorithm/C1.Algorithm",
+        "Algorithm/C1.算法技巧",
+        "Algorithm/C2.编程珠玑",
             ],
         },
 
         {
             type: "category",
-            label: "数学",
+            label: "Think",
             collapsed: true,
             items: [
-                "Algorithm/E1.concrete",
-                "Algorithm/E2.Combinatorics",
+        "Algorithm/D1.ACM模板",
+        "Algorithm/E1.concrete",
+        "Algorithm/E2.Combinatorics",
+        "Algorithm/G1.逻辑思考",
+        "Algorithm/H1.算法谜题",
             ],
         },
 
     ], 
 
     "3.Online_Judge": [
+            "Online_Judge/A1.Leetcode",
+            "Online_Judge/B1.HZOJ",
+            "Online_Judge/C1.nowcoder",
+            "Online_Judge/D1.EP",
+            "Online_Judge/E1.编程技巧",
         {
             type: "category",
             label: "OJ",
             collapsed: true,
             items: [
-                "Online_Judge/A1.Leetcode",
-                "Online_Judge/B1.HZOJ",
-                "Online_Judge/C1.nowcoder",
-                "Online_Judge/D1.EP",
             ],
         },
 
     ], 
     
     "4.Programming_Language": [
+
         {
             type: "category",
             label: "C",
             collapsed: true,
             items: [
-                "Programming_Language/A1.CBasic",
-                "Programming_Language/A2.Cimprove",
-                "Programming_Language/A3.C语言技巧",
+            "Programming_Language/A1.CBasic",
+            "Programming_Language/A2.Cimprove",
+            "Programming_Language/A3.C语言技巧",
             ],
         },
 
@@ -146,10 +194,22 @@ module.exports = {
             label: "C++",
             collapsed: true,
             items: [
-                "Programming_Language/B1.C++",
-                "Programming_Language/B2.STL",
+                "Programming_Language/B1.C++-basic",
+                "Programming_Language/B2.C++-improve",
                 "Programming_Language/B3.C++-exercise",
                 "Programming_Language/B4.C++-others",
+                "Programming_Language/B5.C++编译",
+                "Programming_Language/B6.C++-question",
+            ],
+        },
+
+        {
+            type: "category",
+            label: "STL",
+            collapsed: true,
+            items: [
+        "Programming_Language/C1.STL",
+        "Programming_Language/C2.STL-question",
             ],
         },
 
@@ -158,24 +218,50 @@ module.exports = {
             label: "python",
             collapsed: true,
             items: [
-                "Programming_Language/C1.python",
-                "Programming_Language/C2.conda",
+        "Programming_Language/D1.python",
+        "Programming_Language/E1.conda",
             ],
         },
 
     ], 
 
-    "5.Operating_system": [
+    "5.Programming_Stardard": [
+        "Programming_Stardard/A1.C编程规范",
+        "Programming_Stardard/B1.编码英文缩写",
+        "Programming_Stardard/B1.计算机哲学",
+        "Programming_Stardard/B2.英文标准缩写",
+        "Programming_Stardard/C1.重构",
+        "Programming_Stardard/D1.Design_Pattern",
+        {
+            type: "category",
+            label: "",
+            collapsed: true,
+            items: [
+            ],
+        },
+
+    ], 
+
+    "6.Operating_system": [
+        "Operating_system/A1.os",
+        "Operating_system/A2.OS概述",
+        "Operating_system/A2.操作系统",
+        "Operating_system/A3.进程与线程",
+        "Operating_system/A4.死锁",
+        "Operating_system/A5.存储管理",
+        "Operating_system/A6.设备管理",
+        "Operating_system/A7.文件系统",
+        "Operating_system/A8.输入输出",
+        "Operating_system/A9.编译系统",
+        "Operating_system/C1.计算机原理",
+        "Operating_system/D1.CSAPP",
+
 
         {
             type: "category",
             label: "操作系统",
             collapsed: true,
             items: [
-                "Operating_system/A1.os",
-                "Operating_system/A2.操作系统",
-                "Operating_system/C1.计算机原理",
-                "Operating_system/D1.CSAPP",
             ],
         },
         {
@@ -183,23 +269,23 @@ module.exports = {
             label: "系统编程",
             collapsed: true,
             items: [
-                "Operating_system/B1.文件操作",
-                "Operating_system/B2.Linux命令行解析",
-                "Operating_system/B3.多进程",
-                "Operating_system/B4.多线程",
-                "Operating_system/B5.IPC",
-                "Operating_system/B6.IO",
-                "Operating_system/B7.mmap",
-                "Operating_system/B8.socket",
-                "Operating_system/B9.文件传输",
-                "Operating_system/B10.IO模型",
-                "Operating_system/B11.sleep和间隔计时器",
+                "Operating_system/A1.os",
             ],
         },
 
     ], 
-    "6.Network": [
-        "Network/A1.计算机网络",
+
+    "7.Network": [
+        "Network/A2.网络概论",
+        "Network/A3.物理层",
+        "Network/A4.链路层",
+        "Network/A5.网络层",
+        "Network/A6.传输层",
+        "Network/A7.应用层",
+        "Network/A9.疑问",
+        "Network/B1.HTTP",
+
+       // "Network/B1.tcpip",
         {
             type: "category",
             label: "Network",
@@ -210,9 +296,33 @@ module.exports = {
 
     ], 
 
-    "7.Server": [
+    "8.Server": [
         "Server/A1.Linux高性能服务器",
-        {
+        "Server/A2.概述",
+        "Server/B1.Linux多线程muduo",
+        "Server/B1.系统编程",
+        "Server/B2.文件IO",
+        "Server/B3.文件和目录",
+        "Server/B4.标准IO库",
+        "Server/B9.命令",
+        "Server/C1.网络API",
+        "Server/C1.网络编程",
+        "Server/C2.高级IO函数",
+        "Server/C3.程序规范",
+        "Server/C4.IO复用",
+        "Server/C5.信号",
+        "Server/C6.定时器",
+        "Server/C7.高性能服务器框架",
+        "Server/C8.socket",
+        "Server/C9.实现",
+        "Server/D1.多进程编程",
+        "Server/D2.进程",
+        "Server/D3.进程控制",
+        "Server/D4.进程间通信",
+        "Server/E1.多线程编程",
+        "Server/E2.线程",
+        "Server/H1.网络工具",
+                {
             type: "category",
             label: "Server",
             collapsed: true,
@@ -222,7 +332,7 @@ module.exports = {
 
     ], 
 
-    "8.Database": [
+    "9.Database": [
         {
             type: "category",
             label: "",
@@ -233,19 +343,6 @@ module.exports = {
 
     ], 
 
-    "9.Programming_Stardard": [
-                "Programming_Stardard/A1.C编程规范",
-                "Programming_Stardard/B1.编码英文缩写",
-                "Programming_Stardard/B2.英文标准缩写",
-        {
-            type: "category",
-            label: "",
-            collapsed: true,
-            items: [
-            ],
-        },
-
-    ], 
 
     "10.Skill": [
                 "Skill/A1.Latex数学公式",
@@ -253,6 +350,8 @@ module.exports = {
                 "Skill/C1.git",
                 "Skill/C2.github",
                 "Skill/D1.计算机英语",
+                "Skill/E1.绘图",
+
         {
             type: "category",
             label: "",
@@ -264,7 +363,35 @@ module.exports = {
     ], 
 
     "11.Interview": [
-                "Interview/A1.面试",
+        "Interview/A1.面试",
+        "Interview/A2.interview",
+        "Interview/C1.简历",
+        {
+            type: "category",
+            label: "",
+            collapsed: true,
+            items: [
+            ],
+        },
+
+    ], 
+    "13.Project": [
+        "Project/A1.Gtest测试框架",
+        "Project/A2.udp-football",
+        "Project/A3.Hython",
+        "Project/B1.项目面试",
+        {
+            type: "category",
+            label: "",
+            collapsed: true,
+            items: [
+            ],
+        },
+
+    ], 
+    "14.Science": [
+        "Science/E3.数学认识",
+        "Science/F1.物理认识",
         {
             type: "category",
             label: "",
@@ -275,10 +402,14 @@ module.exports = {
 
     ], 
 
+
     "99.other": [
                 "other/A1.临时",
                 "other/B1.临时笔记",
                 "other/C1.task",
+                "other/D1.软件需求",
+                "other/E1.software",
+
         {
             type: "category",
             label: "",
@@ -292,13 +423,29 @@ module.exports = {
 "Reading-Book📚" : {
     "Notes" : [
                 "ReadingNotes/A1.Sentence",
-                "ReadingNotes/B1.民国三部曲",
-                "ReadingNotes/C1.烽火戏诸侯",
+                "ReadingNotes/A2.other",
+                "ReadingNotes/C0.小说",
+                //"ReadingNotes/C1.烽火戏诸侯",
+                //"ReadingNotes/C12.遥远的救世主",
+                //"ReadingNotes/C13.天幕红尘",
+                //"ReadingNotes/C15.现言",
                 "ReadingNotes/C2.烟雨江南",
-                "ReadingNotes/C3.other",
-                "ReadingNotes/C4.豆豆三部曲",
-                "selfKnowledge/A1.philosophy",
-                "selfKnowledge/C1.哲学",
+                //"ReadingNotes/C3.东野圭吾",
+                //"ReadingNotes/C4.豆豆三部曲",
+                //"ReadingNotes/C5.黑铁之堡",
+                //"ReadingNotes/C8.老子是一只癞蛤蟆",
+                //"ReadingNotes/C9.雪中悍刀行",
+                //"ReadingNotes/D0.电影",
+                //"ReadingNotes/D1.沉默的羔羊",
+                //"ReadingNotes/D10.罗生门",
+                //"ReadingNotes/D2.看不见的客人",
+                //"ReadingNotes/D3.蝴蝶效应",
+                //"ReadingNotes/D4.肖申克的救赎",
+                //"ReadingNotes/D5.当幸福来敲门",
+                //"ReadingNotes/D9.民国三部曲.md",
+                "ReadingNotes/E1.推理",
+                "ReadingNotes/F1.美句",
+                "ReadingNotes/G1.诗句",
         {
             type: "category",
             label: "",
@@ -307,17 +454,33 @@ module.exports = {
             ],
         },
     ],
+    "selfKnowledge" : [
+                "selfKnowledge/A1.philosophy",
+                "selfKnowledge/C1.哲学",
+                "selfKnowledge/C2.躺平",
+                //"selfKnowledge/D1.佛学",
+                "selfKnowledge/E1.人类简史",
+                "selfKnowledge/F1.熵",
+                //"selfKnowledge/G1.互联网文化",
+        {
+            type: "category",
+            label: "",
+            collapsed: true,
+            items: [
+            ],
+        },
+    ]
 },
 
 "Xmind🎮" : {  
-    "Xmind_IMG" : [
+    "Xmind_MD" : [
         "Xmind_IMG/1.解题思维",
         "Xmind_IMG/2.系统网络原理",
         "Xmind_IMG/3.C++OPP",
         "Xmind_IMG/4.Linux命令",
     ],
     
-    "svg"  :[
+    "Xmind_SVG"  :[
     {      
         type: 'link',
         label: 'C++', 
@@ -338,40 +501,6 @@ module.exports = {
         label: 'math', 
         href: 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/svg/解题思维.svg', 
     },  
-        
-    {      
-        type: 'link',
-        label: 'C++', 
-        href: 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/pdf/C++&&OPP.pdf', 
-    },  
-    {
-        type: 'link',
-        label: 'Linux',
-        href : 'https://cdn.jsdelivr.net/gh/worst0/picture/Xmind/pdf/Linux命令.pdf',
-    },
-    ],
-    "demo"  :[
-    {      
-        type: 'link',
-        label: 'C++', 
-        href: '/Xmind/C++&&OPP.svg', 
-    },  
-    {
-        type: 'link',
-        label: 'Linux',
-        href : '/Xmind/Linux命令.svg',
-    },
-    {      
-        type: 'link',
-        label: 'OS&Network', 
-        href: '/Xmind/系统&网络原理.svg', 
-    },  
-    {      
-        type: 'link',
-        label: 'math', 
-        href: '/Xmind/解题思维.svg', 
-    },  
-        
     ],
 },
 
