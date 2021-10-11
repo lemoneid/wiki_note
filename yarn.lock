@@ -1281,7 +1281,7 @@
   "resolved" "https://registry.nlark.com/@docsearch/css/download/@docsearch/css-3.0.0-alpha.40.tgz"
   "version" "3.0.0-alpha.40"
 
-"@docsearch/react@^3.0.0-alpha.33":
+"@docsearch/react@^3.0.0-alpha.36":
   "integrity" "sha1-2RK0u3KByw+vZVkMnPAiqioT2CM="
   "resolved" "https://registry.nlark.com/@docsearch/react/download/@docsearch/react-3.0.0-alpha.40.tgz"
   "version" "3.0.0-alpha.40"
@@ -1291,10 +1291,10 @@
     "@docsearch/css" "3.0.0-alpha.40"
     "algoliasearch" "^4.0.0"
 
-"@docusaurus/core@^2.0.0-beta.6", "@docusaurus/core@2.0.0-beta.6":
-  "integrity" "sha1-mEeuIRoE8dKwV/jlumUOdrnC34M="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/core/download/@docusaurus/core-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
+"@docusaurus/core@^2.0.0-beta.3", "@docusaurus/core@2.0.0-beta.3":
+  "integrity" "sha1-OvFIl9z1tzVUMU9u0CxGzw9GMzY="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/core/download/@docusaurus/core-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
     "@babel/core" "^7.12.16"
     "@babel/generator" "^7.12.15"
@@ -1306,12 +1306,12 @@
     "@babel/runtime" "^7.12.5"
     "@babel/runtime-corejs3" "^7.12.13"
     "@babel/traverse" "^7.12.13"
-    "@docusaurus/cssnano-preset" "2.0.0-beta.6"
+    "@docusaurus/cssnano-preset" "2.0.0-beta.3"
     "@docusaurus/react-loadable" "5.5.0"
-    "@docusaurus/types" "2.0.0-beta.6"
-    "@docusaurus/utils" "2.0.0-beta.6"
-    "@docusaurus/utils-common" "2.0.0-beta.6"
-    "@docusaurus/utils-validation" "2.0.0-beta.6"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-common" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
     "@slorber/static-site-generator-webpack-plugin" "^4.0.0"
     "@svgr/webpack" "^5.5.0"
     "autoprefixer" "^10.2.5"
@@ -1320,7 +1320,7 @@
     "boxen" "^5.0.1"
     "chalk" "^4.1.1"
     "chokidar" "^3.5.1"
-    "clean-css" "^5.1.5"
+    "clean-css" "^5.1.2"
     "commander" "^5.1.0"
     "copy-webpack-plugin" "^9.0.0"
     "core-js" "^3.9.1"
@@ -1357,7 +1357,6 @@
     "react-router" "^5.2.0"
     "react-router-config" "^5.1.1"
     "react-router-dom" "^5.2.0"
-    "remark-admonitions" "^1.2.1"
     "resolve-pathname" "^3.0.0"
     "rtl-detect" "^1.0.3"
     "semver" "^7.3.4"
@@ -1376,141 +1375,26 @@
     "webpack-merge" "^5.8.0"
     "webpackbar" "^5.0.0-3"
 
-"@docusaurus/core@2.0.0-beta.0":
-  "integrity" "sha1-BVBu4C59QOn0yNe0+RjSbTsZEVk="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/core/download/@docusaurus/core-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
-  dependencies:
-    "@babel/core" "^7.12.16"
-    "@babel/generator" "^7.12.15"
-    "@babel/plugin-syntax-dynamic-import" "^7.8.3"
-    "@babel/plugin-transform-runtime" "^7.12.15"
-    "@babel/preset-env" "^7.12.16"
-    "@babel/preset-react" "^7.12.13"
-    "@babel/preset-typescript" "^7.12.16"
-    "@babel/runtime" "^7.12.5"
-    "@babel/runtime-corejs3" "^7.12.13"
-    "@babel/traverse" "^7.12.13"
-    "@docusaurus/cssnano-preset" "2.0.0-beta.0"
-    "@docusaurus/react-loadable" "5.5.0"
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
-    "@endiliey/static-site-generator-webpack-plugin" "^4.0.0"
-    "@svgr/webpack" "^5.5.0"
-    "autoprefixer" "^10.2.5"
-    "babel-loader" "^8.2.2"
-    "babel-plugin-dynamic-import-node" "2.3.0"
-    "boxen" "^5.0.0"
-    "chalk" "^4.1.0"
-    "chokidar" "^3.5.1"
-    "clean-css" "^5.1.1"
-    "commander" "^5.1.0"
-    "copy-webpack-plugin" "^8.1.0"
-    "core-js" "^3.9.1"
-    "css-loader" "^5.1.1"
-    "css-minimizer-webpack-plugin" "^2.0.0"
-    "cssnano" "^5.0.1"
-    "del" "^6.0.0"
-    "detect-port" "^1.3.0"
-    "eta" "^1.12.1"
-    "express" "^4.17.1"
-    "file-loader" "^6.2.0"
-    "fs-extra" "^9.1.0"
-    "github-slugger" "^1.3.0"
-    "globby" "^11.0.2"
-    "html-minifier-terser" "^5.1.1"
-    "html-tags" "^3.1.0"
-    "html-webpack-plugin" "^5.2.0"
-    "import-fresh" "^3.3.0"
-    "is-root" "^2.1.0"
-    "leven" "^3.1.0"
-    "lodash" "^4.17.20"
-    "mini-css-extract-plugin" "^1.4.0"
-    "module-alias" "^2.2.2"
-    "nprogress" "^0.2.0"
-    "postcss" "^8.2.10"
-    "postcss-loader" "^5.2.0"
-    "prompts" "^2.4.0"
-    "react-dev-utils" "^11.0.1"
-    "react-error-overlay" "^6.0.9"
-    "react-helmet" "^6.1.0"
-    "react-loadable" "^5.5.0"
-    "react-loadable-ssr-addon-v5-slorber" "^1.0.1"
-    "react-router" "^5.2.0"
-    "react-router-config" "^5.1.1"
-    "react-router-dom" "^5.2.0"
-    "resolve-pathname" "^3.0.0"
-    "rtl-detect" "^1.0.2"
-    "semver" "^7.3.4"
-    "serve-handler" "^6.1.3"
-    "shelljs" "^0.8.4"
-    "std-env" "^2.2.1"
-    "strip-ansi" "^6.0.0"
-    "terser-webpack-plugin" "^5.1.1"
-    "tslib" "^2.1.0"
-    "update-notifier" "^5.1.0"
-    "url-loader" "^4.1.1"
-    "wait-on" "^5.2.1"
-    "webpack" "^5.28.0"
-    "webpack-bundle-analyzer" "^4.4.0"
-    "webpack-dev-server" "^3.11.2"
-    "webpack-merge" "^5.7.3"
-    "webpackbar" "^5.0.0-3"
-
-"@docusaurus/cssnano-preset@2.0.0-beta.0":
-  "integrity" "sha1-p5IjR5ZmBZVl1gpQW+0rvKx3A4Q="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/cssnano-preset/download/@docusaurus/cssnano-preset-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
-  dependencies:
-    "cssnano-preset-advanced" "^5.0.0"
-    "postcss" "^8.2.10"
-    "postcss-sort-media-queries" "^3.8.9"
-
-"@docusaurus/cssnano-preset@2.0.0-beta.6":
-  "integrity" "sha1-DCd4VPAmLcp7yz2vmYZuiknikRg="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/cssnano-preset/download/@docusaurus/cssnano-preset-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
+"@docusaurus/cssnano-preset@2.0.0-beta.3":
+  "integrity" "sha1-uC1Y306VsEzVej6ZItOQViB9LHM="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/cssnano-preset/download/@docusaurus/cssnano-preset-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
     "cssnano-preset-advanced" "^5.1.1"
     "postcss" "^8.2.15"
     "postcss-sort-media-queries" "^3.10.11"
 
-"@docusaurus/mdx-loader@2.0.0-beta.0":
-  "integrity" "sha1-eliTOZSy+s5i40aY2y+ciMU8bWE="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/mdx-loader/download/@docusaurus/mdx-loader-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/mdx-loader@2.0.0-beta.3":
+  "integrity" "sha1-4dnzJliJ5HKEEtq59F2UC9h2Of0="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/mdx-loader/download/@docusaurus/mdx-loader-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
     "@babel/parser" "^7.12.16"
     "@babel/traverse" "^7.12.13"
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
     "@mdx-js/mdx" "^1.6.21"
     "@mdx-js/react" "^1.6.21"
-    "escape-html" "^1.0.3"
-    "file-loader" "^6.2.0"
-    "fs-extra" "^9.1.0"
-    "github-slugger" "^1.3.0"
-    "gray-matter" "^4.0.2"
-    "mdast-util-to-string" "^2.0.0"
-    "remark-emoji" "^2.1.0"
-    "stringify-object" "^3.3.0"
-    "unist-util-visit" "^2.0.2"
-    "url-loader" "^4.1.1"
-    "webpack" "^5.28.0"
-
-"@docusaurus/mdx-loader@2.0.0-beta.6":
-  "integrity" "sha1-pa7uW+DQS7JzdSyJM2bMbP/rKzI="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/mdx-loader/download/@docusaurus/mdx-loader-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
-  dependencies:
-    "@babel/parser" "^7.12.16"
-    "@babel/traverse" "^7.12.13"
-    "@docusaurus/core" "2.0.0-beta.6"
-    "@docusaurus/utils" "2.0.0-beta.6"
-    "@mdx-js/mdx" "^1.6.21"
-    "@mdx-js/react" "^1.6.21"
-    "chalk" "^4.1.1"
     "escape-html" "^1.0.3"
     "file-loader" "^6.2.0"
     "fs-extra" "^10.0.0"
@@ -1523,37 +1407,38 @@
     "url-loader" "^4.1.1"
     "webpack" "^5.40.0"
 
-"@docusaurus/plugin-content-blog@2.0.0-beta.0":
-  "integrity" "sha1-6n02easlLo8OWKr4Dx/GABxyx1U="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-content-blog/download/@docusaurus/plugin-content-blog-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/plugin-content-blog@2.0.0-beta.3":
+  "integrity" "sha1-y36kxh7ocXp2WVszmTLn7p/p4JE="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-content-blog/download/@docusaurus/plugin-content-blog-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/mdx-loader" "2.0.0-beta.0"
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
-    "chalk" "^4.1.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/mdx-loader" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
+    "chalk" "^4.1.1"
+    "escape-string-regexp" "^4.0.0"
     "feed" "^4.2.2"
-    "fs-extra" "^9.1.0"
+    "fs-extra" "^10.0.0"
     "globby" "^11.0.2"
     "loader-utils" "^2.0.0"
     "lodash" "^4.17.20"
     "reading-time" "^1.3.0"
     "remark-admonitions" "^1.2.1"
-    "tslib" "^2.1.0"
-    "webpack" "^5.28.0"
+    "tslib" "^2.2.0"
+    "webpack" "^5.40.0"
 
-"@docusaurus/plugin-content-docs@^2.0.0-beta.6":
-  "integrity" "sha1-OP1Y5C/jnioMxzjfB3kXpvzU5+4="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-content-docs/download/@docusaurus/plugin-content-docs-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
+"@docusaurus/plugin-content-docs@^2.0.0-beta.3", "@docusaurus/plugin-content-docs@2.0.0-beta.3":
+  "integrity" "sha1-jE8XgMEmT8tZNxg6uM6XkviPJTo="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-content-docs/download/@docusaurus/plugin-content-docs-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.6"
-    "@docusaurus/mdx-loader" "2.0.0-beta.6"
-    "@docusaurus/types" "2.0.0-beta.6"
-    "@docusaurus/utils" "2.0.0-beta.6"
-    "@docusaurus/utils-validation" "2.0.0-beta.6"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/mdx-loader" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
     "chalk" "^4.1.1"
     "combine-promises" "^1.1.0"
     "escape-string-regexp" "^4.0.0"
@@ -1570,102 +1455,78 @@
     "utility-types" "^3.10.0"
     "webpack" "^5.40.0"
 
-"@docusaurus/plugin-content-docs@2.0.0-beta.0":
-  "integrity" "sha1-paHg6V5Jnu/uU+T2GuuZrEpmlkg="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-content-docs/download/@docusaurus/plugin-content-docs-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/plugin-content-pages@2.0.0-beta.3":
+  "integrity" "sha1-+Q1WVWNVFVY1S42/SKtXZcOzb6I="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-content-pages/download/@docusaurus/plugin-content-pages-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/mdx-loader" "2.0.0-beta.0"
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
-    "chalk" "^4.1.0"
-    "combine-promises" "^1.1.0"
-    "execa" "^5.0.0"
-    "fs-extra" "^9.1.0"
-    "globby" "^11.0.2"
-    "import-fresh" "^3.2.2"
-    "js-yaml" "^4.0.0"
-    "loader-utils" "^1.2.3"
-    "lodash" "^4.17.20"
-    "remark-admonitions" "^1.2.1"
-    "shelljs" "^0.8.4"
-    "tslib" "^2.1.0"
-    "utility-types" "^3.10.0"
-    "webpack" "^5.28.0"
-
-"@docusaurus/plugin-content-pages@2.0.0-beta.0":
-  "integrity" "sha1-HKs+vgoIvnRXbxDJVnUpG/hPhI4="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-content-pages/download/@docusaurus/plugin-content-pages-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
-  dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/mdx-loader" "2.0.0-beta.0"
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/mdx-loader" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
     "globby" "^11.0.2"
     "lodash" "^4.17.20"
     "minimatch" "^3.0.4"
     "remark-admonitions" "^1.2.1"
     "slash" "^3.0.0"
     "tslib" "^2.1.0"
-    "webpack" "^5.28.0"
+    "webpack" "^5.40.0"
 
-"@docusaurus/plugin-debug@2.0.0-beta.0":
-  "integrity" "sha1-vuZyuIWNiL2yKdQwF4X/RpLr0X8="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-debug/download/@docusaurus/plugin-debug-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/plugin-debug@2.0.0-beta.3":
+  "integrity" "sha1-InjLU3y2rPFTl3czwZxwSjLhWyg="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-debug/download/@docusaurus/plugin-debug-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "react-json-view" "^1.21.1"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "react-json-view" "^1.21.3"
     "tslib" "^2.1.0"
 
-"@docusaurus/plugin-google-analytics@2.0.0-beta.0":
-  "integrity" "sha1-7ih/uZEgLY6beSEp3MVULvPM1sk="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-google-analytics/download/@docusaurus/plugin-google-analytics-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/plugin-google-analytics@2.0.0-beta.3":
+  "integrity" "sha1-r/SmJbGDwsW8tjzmFUJZLpgHX1U="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-google-analytics/download/@docusaurus/plugin-google-analytics-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
 
-"@docusaurus/plugin-google-gtag@2.0.0-beta.0":
-  "integrity" "sha1-SDZ3ATDPVP8s2Dr/v/lkTucpPp4="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-google-gtag/download/@docusaurus/plugin-google-gtag-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/plugin-google-gtag@2.0.0-beta.3":
+  "integrity" "sha1-5SEFp0njPm6kTnED9C3w/KwCaKw="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-google-gtag/download/@docusaurus/plugin-google-gtag-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
 
-"@docusaurus/plugin-sitemap@2.0.0-beta.0":
-  "integrity" "sha1-mF1Mw6+GSZ9hbO0CS6H6uDKeYB0="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-sitemap/download/@docusaurus/plugin-sitemap-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/plugin-sitemap@2.0.0-beta.3":
+  "integrity" "sha1-YeC1LbUcwR3VlmIEH/0y7z9OxfE="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/plugin-sitemap/download/@docusaurus/plugin-sitemap-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
-    "fs-extra" "^9.1.0"
-    "sitemap" "^6.3.6"
-    "tslib" "^2.1.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-common" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
+    "fs-extra" "^10.0.0"
+    "sitemap" "^7.0.0"
+    "tslib" "^2.2.0"
 
-"@docusaurus/preset-classic@^2.0.0-beta.0":
-  "integrity" "sha1-eetDZua163BhNwAZEn5AFyQy13A="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/preset-classic/download/@docusaurus/preset-classic-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/preset-classic@^2.0.0-beta.3":
+  "integrity" "sha1-RP5gu3PmcczlagKMhzHZdjH+V7I="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/preset-classic/download/@docusaurus/preset-classic-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-blog" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-docs" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-pages" "2.0.0-beta.0"
-    "@docusaurus/plugin-debug" "2.0.0-beta.0"
-    "@docusaurus/plugin-google-analytics" "2.0.0-beta.0"
-    "@docusaurus/plugin-google-gtag" "2.0.0-beta.0"
-    "@docusaurus/plugin-sitemap" "2.0.0-beta.0"
-    "@docusaurus/theme-classic" "2.0.0-beta.0"
-    "@docusaurus/theme-search-algolia" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-blog" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-docs" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-pages" "2.0.0-beta.3"
+    "@docusaurus/plugin-debug" "2.0.0-beta.3"
+    "@docusaurus/plugin-google-analytics" "2.0.0-beta.3"
+    "@docusaurus/plugin-google-gtag" "2.0.0-beta.3"
+    "@docusaurus/plugin-sitemap" "2.0.0-beta.3"
+    "@docusaurus/theme-classic" "2.0.0-beta.3"
+    "@docusaurus/theme-search-algolia" "2.0.0-beta.3"
 
 "@docusaurus/react-loadable@5.5.0":
   "integrity" "sha1-bW8Mj9mkNLYqGrH4ZF7nveWp7CE="
@@ -1674,92 +1535,82 @@
   dependencies:
     "prop-types" "^15.6.2"
 
-"@docusaurus/theme-classic@2.0.0-beta.0":
-  "integrity" "sha1-CtdCZNxZJZC9fYpvYyfLg7urxmU="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-classic/download/@docusaurus/theme-classic-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/theme-classic@2.0.0-beta.3":
+  "integrity" "sha1-qEJBrW3CKuyaMxNunVkgNK6k2GU="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-classic/download/@docusaurus/theme-classic-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-blog" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-docs" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-pages" "2.0.0-beta.0"
-    "@docusaurus/theme-common" "2.0.0-beta.0"
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-blog" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-docs" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-pages" "2.0.0-beta.3"
+    "@docusaurus/theme-common" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-common" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
     "@mdx-js/mdx" "^1.6.21"
     "@mdx-js/react" "^1.6.21"
-    "chalk" "^4.1.0"
+    "chalk" "^4.1.1"
     "clsx" "^1.1.1"
-    "copy-text-to-clipboard" "^3.0.0"
-    "fs-extra" "^9.1.0"
+    "copy-text-to-clipboard" "^3.0.1"
+    "fs-extra" "^10.0.0"
     "globby" "^11.0.2"
-    "infima" "0.2.0-alpha.23"
+    "infima" "0.2.0-alpha.26"
     "lodash" "^4.17.20"
     "parse-numeric-range" "^1.2.0"
-    "postcss" "^8.2.10"
-    "prism-react-renderer" "^1.1.1"
+    "postcss" "^8.2.15"
+    "prism-react-renderer" "^1.2.1"
     "prismjs" "^1.23.0"
     "prop-types" "^15.7.2"
     "react-router-dom" "^5.2.0"
     "rtlcss" "^3.1.2"
 
-"@docusaurus/theme-common@2.0.0-beta.0":
-  "integrity" "sha1-NnTvZILMOe+gNP2NixyDFYiJYyk="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-common/download/@docusaurus/theme-common-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/theme-common@2.0.0-beta.3":
+  "integrity" "sha1-jb4F80NmN7CZrq2lx1pvfJvBY6U="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-common/download/@docusaurus/theme-common-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-blog" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-docs" "2.0.0-beta.0"
-    "@docusaurus/plugin-content-pages" "2.0.0-beta.0"
-    "@docusaurus/types" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-blog" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-docs" "2.0.0-beta.3"
+    "@docusaurus/plugin-content-pages" "2.0.0-beta.3"
+    "@docusaurus/types" "2.0.0-beta.3"
     "tslib" "^2.1.0"
 
-"@docusaurus/theme-live-codeblock@^2.0.0-beta.0":
-  "integrity" "sha1-PUO5tNUkv5y9Bw3QeK2YlID+iq4="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-live-codeblock/download/@docusaurus/theme-live-codeblock-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/theme-live-codeblock@^2.0.0-beta.3":
+  "integrity" "sha1-x/ySQTVrimrvF4Q8FqKoAMnWjiA="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-live-codeblock/download/@docusaurus/theme-live-codeblock-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
     "@philpl/buble" "^0.19.7"
     "clsx" "^1.1.1"
     "parse-numeric-range" "^1.2.0"
-    "prism-react-renderer" "^1.1.1"
+    "prism-react-renderer" "^1.2.1"
     "react-live" "^2.2.3"
 
-"@docusaurus/theme-search-algolia@^2.0.0-beta.0", "@docusaurus/theme-search-algolia@2.0.0-beta.0":
-  "integrity" "sha1-v97jmB2NpyN3uQRUWZUGhtKKAf0="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-search-algolia/download/@docusaurus/theme-search-algolia-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/theme-search-algolia@^2.0.0-beta.3", "@docusaurus/theme-search-algolia@2.0.0-beta.3":
+  "integrity" "sha1-nKgUL+RobSYtVGybownQLZ1NWak="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/theme-search-algolia/download/@docusaurus/theme-search-algolia-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docsearch/react" "^3.0.0-alpha.33"
-    "@docusaurus/core" "2.0.0-beta.0"
-    "@docusaurus/theme-common" "2.0.0-beta.0"
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "@docusaurus/utils-validation" "2.0.0-beta.0"
+    "@docsearch/react" "^3.0.0-alpha.36"
+    "@docusaurus/core" "2.0.0-beta.3"
+    "@docusaurus/theme-common" "2.0.0-beta.3"
+    "@docusaurus/utils" "2.0.0-beta.3"
+    "@docusaurus/utils-validation" "2.0.0-beta.3"
     "algoliasearch" "^4.8.4"
     "algoliasearch-helper" "^3.3.4"
     "clsx" "^1.1.1"
     "eta" "^1.12.1"
     "lodash" "^4.17.20"
 
-"@docusaurus/types@2.0.0-beta.0":
-  "integrity" "sha1-9HP0F732kM/VJhHd9tif+TnR8qQ="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/types/download/@docusaurus/types-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
-  dependencies:
-    "commander" "^5.1.0"
-    "joi" "^17.4.0"
-    "querystring" "0.2.0"
-    "webpack" "^5.28.0"
-    "webpack-merge" "^5.7.3"
-
-"@docusaurus/types@2.0.0-beta.6":
-  "integrity" "sha1-+SphzELlkh0yURTrx7MMXow2hoM="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/types/download/@docusaurus/types-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
+"@docusaurus/types@2.0.0-beta.3":
+  "integrity" "sha1-BCg406HOCqbw3xuHGA2g1QMmjZs="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/types/download/@docusaurus/types-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
     "commander" "^5.1.0"
     "joi" "^17.4.0"
@@ -1767,76 +1618,38 @@
     "webpack" "^5.40.0"
     "webpack-merge" "^5.8.0"
 
-"@docusaurus/utils-common@2.0.0-beta.6":
-  "integrity" "sha1-r9Jqn2exZHkFjq1moxBzjCEpOuU="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/utils-common/download/@docusaurus/utils-common-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
+"@docusaurus/utils-common@2.0.0-beta.3":
+  "integrity" "sha1-hfx/dXLQ9V5iuPC665GWe/fWmeA="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/utils-common/download/@docusaurus/utils-common-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/types" "2.0.0-beta.6"
+    "@docusaurus/types" "2.0.0-beta.3"
     "tslib" "^2.2.0"
 
-"@docusaurus/utils-validation@2.0.0-beta.0":
-  "integrity" "sha1-PmSRwmmjl/7Slxehy2kQnflINGE="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/utils-validation/download/@docusaurus/utils-validation-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/utils-validation@2.0.0-beta.3":
+  "integrity" "sha1-JOgYf/hT3+wRH6rvda9DInS9h3M="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/utils-validation/download/@docusaurus/utils-validation-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/utils" "2.0.0-beta.0"
-    "chalk" "^4.1.0"
-    "joi" "^17.4.0"
-    "tslib" "^2.1.0"
-
-"@docusaurus/utils-validation@2.0.0-beta.6":
-  "integrity" "sha1-e5ghbehEE46WBqEowJGCGF7YRiE="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/utils-validation/download/@docusaurus/utils-validation-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
-  dependencies:
-    "@docusaurus/utils" "2.0.0-beta.6"
+    "@docusaurus/utils" "2.0.0-beta.3"
     "chalk" "^4.1.1"
     "joi" "^17.4.0"
     "tslib" "^2.1.0"
 
-"@docusaurus/utils@2.0.0-beta.0":
-  "integrity" "sha1-byaQ/W/NlC8NaQ2x3/uWdCdi3rM="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/utils/download/@docusaurus/utils-2.0.0-beta.0.tgz"
-  "version" "2.0.0-beta.0"
+"@docusaurus/utils@2.0.0-beta.3":
+  "integrity" "sha1-gb3wLFEo89MH1Wkly8OY2/NgDlA="
+  "resolved" "https://registry.npmmirror.com/@docusaurus/utils/download/@docusaurus/utils-2.0.0-beta.3.tgz"
+  "version" "2.0.0-beta.3"
   dependencies:
-    "@docusaurus/types" "2.0.0-beta.0"
-    "@types/github-slugger" "^1.3.0"
-    "chalk" "^4.1.0"
-    "escape-string-regexp" "^4.0.0"
-    "fs-extra" "^9.1.0"
-    "gray-matter" "^4.0.2"
-    "lodash" "^4.17.20"
-    "resolve-pathname" "^3.0.0"
-    "tslib" "^2.1.0"
-
-"@docusaurus/utils@2.0.0-beta.6":
-  "integrity" "sha1-FDjfnyi2Mv56T1BmM0C0Y8/wfKs="
-  "resolved" "https://registry.npmmirror.com/@docusaurus/utils/download/@docusaurus/utils-2.0.0-beta.6.tgz"
-  "version" "2.0.0-beta.6"
-  dependencies:
-    "@docusaurus/types" "2.0.0-beta.6"
+    "@docusaurus/types" "2.0.0-beta.3"
     "@types/github-slugger" "^1.3.0"
     "chalk" "^4.1.1"
     "escape-string-regexp" "^4.0.0"
     "fs-extra" "^10.0.0"
-    "globby" "^11.0.4"
     "gray-matter" "^4.0.3"
     "lodash" "^4.17.20"
-    "micromatch" "^4.0.4"
     "resolve-pathname" "^3.0.0"
     "tslib" "^2.2.0"
-
-"@endiliey/static-site-generator-webpack-plugin@^4.0.0":
-  "integrity" "sha1-lL/lj9g67aNV3nl/y1ESrayjprE="
-  "resolved" "https://registry.npmmirror.com/@endiliey/static-site-generator-webpack-plugin/download/@endiliey/static-site-generator-webpack-plugin-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "bluebird" "^3.7.1"
-    "cheerio" "^0.22.0"
-    "eval" "^0.1.4"
-    "url" "^0.11.0"
-    "webpack-sources" "^1.4.3"
 
 "@hapi/hoek@^9.0.0":
   "integrity" "sha1-lVEUKhmAUDdSU2tQUP2Z9KfxOxc="
@@ -2154,10 +1967,10 @@
   "resolved" "https://registry.npmmirror.com/@types/node/download/@types/node-16.10.3.tgz"
   "version" "16.10.3"
 
-"@types/node@^14.14.28":
-  "integrity" "sha1-Y1nYz3NIHjEqQ4hvpQr8cM5VksY="
-  "resolved" "https://registry.npmmirror.com/@types/node/download/@types/node-14.17.21.tgz"
-  "version" "14.17.21"
+"@types/node@^15.0.1":
+  "integrity" "sha1-vEPJkMPJvnKBhou8e4/dbitXrfo="
+  "resolved" "https://registry.npmmirror.com/@types/node/download/@types/node-15.14.9.tgz"
+  "version" "15.14.9"
 
 "@types/parse-json@^4.0.0":
   "integrity" "sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA="
@@ -2610,11 +2423,6 @@
   "version" "2.6.3"
   dependencies:
     "lodash" "^4.17.14"
-
-"at-least-node@^1.0.0":
-  "integrity" "sha1-YCzUtG6EStTv/JKoARo8RuAjjcI="
-  "resolved" "https://registry.nlark.com/at-least-node/download/at-least-node-1.0.0.tgz"
-  "version" "1.0.0"
 
 "atob@^2.1.2":
   "integrity" "sha1-bZUX654DDSQ2ZmZR6GvZ9vE1M8k="
@@ -3133,7 +2941,7 @@
   dependencies:
     "source-map" "~0.6.0"
 
-"clean-css@^5.1.1", "clean-css@^5.1.5":
+"clean-css@^5.1.2":
   "integrity" "sha1-5b2xvuXzMsZ+mMthgSUdT4jApqs="
   "resolved" "https://registry.npmmirror.com/clean-css/download/clean-css-5.2.1.tgz"
   "version" "5.2.1"
@@ -3377,23 +3185,10 @@
   "resolved" "https://registry.nlark.com/copy-descriptor/download/copy-descriptor-0.1.1.tgz"
   "version" "0.1.1"
 
-"copy-text-to-clipboard@^3.0.0":
+"copy-text-to-clipboard@^3.0.1":
   "integrity" "sha1-jL+PkOCkfxLkokdDc2Jl0Ve85pw="
   "resolved" "https://registry.nlark.com/copy-text-to-clipboard/download/copy-text-to-clipboard-3.0.1.tgz"
   "version" "3.0.1"
-
-"copy-webpack-plugin@^8.1.0":
-  "integrity" "sha1-P2l+FidkklwvDSNfOAZ2ElUI/SY="
-  "resolved" "https://registry.nlark.com/copy-webpack-plugin/download/copy-webpack-plugin-8.1.1.tgz?cache=0&sync_timestamp=1624628454528&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcopy-webpack-plugin%2Fdownload%2Fcopy-webpack-plugin-8.1.1.tgz"
-  "version" "8.1.1"
-  dependencies:
-    "fast-glob" "^3.2.5"
-    "glob-parent" "^5.1.1"
-    "globby" "^11.0.3"
-    "normalize-path" "^3.0.0"
-    "p-limit" "^3.1.0"
-    "schema-utils" "^3.0.0"
-    "serialize-javascript" "^5.0.1"
 
 "copy-webpack-plugin@^9.0.0":
   "integrity" "sha1-tx0hmRWZ9hpO4AunkIe4uiebu1k="
@@ -3510,19 +3305,6 @@
     "schema-utils" "^3.0.0"
     "semver" "^7.3.5"
 
-"css-minimizer-webpack-plugin@^2.0.0":
-  "integrity" "sha1-PEL2Yk7Uz0eA3ZY+I+5knlolwag="
-  "resolved" "https://registry.npmmirror.com/css-minimizer-webpack-plugin/download/css-minimizer-webpack-plugin-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "cssnano" "^5.0.0"
-    "jest-worker" "^26.3.0"
-    "p-limit" "^3.0.2"
-    "postcss" "^8.2.9"
-    "schema-utils" "^3.0.0"
-    "serialize-javascript" "^5.0.1"
-    "source-map" "^0.6.1"
-
 "css-minimizer-webpack-plugin@^3.0.1":
   "integrity" "sha1-J7r6O3UFRxNWWyJmxksCKKzRhjQ="
   "resolved" "https://registry.npmmirror.com/css-minimizer-webpack-plugin/download/css-minimizer-webpack-plugin-3.1.1.tgz"
@@ -3608,7 +3390,7 @@
   "resolved" "https://registry.nlark.com/cssesc/download/cssesc-3.0.0.tgz"
   "version" "3.0.0"
 
-"cssnano-preset-advanced@^5.0.0", "cssnano-preset-advanced@^5.1.1":
+"cssnano-preset-advanced@^5.1.1":
   "integrity" "sha1-tJLQN1ZVD3XNgTHVkQXv3qiML34="
   "resolved" "https://registry.nlark.com/cssnano-preset-advanced/download/cssnano-preset-advanced-5.1.4.tgz?cache=0&sync_timestamp=1629280475388&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcssnano-preset-advanced%2Fdownload%2Fcssnano-preset-advanced-5.1.4.tgz"
   "version" "5.1.4"
@@ -3660,7 +3442,7 @@
   "resolved" "https://registry.nlark.com/cssnano-utils/download/cssnano-utils-2.0.1.tgz"
   "version" "2.0.1"
 
-"cssnano@^5.0.0", "cssnano@^5.0.1", "cssnano@^5.0.4", "cssnano@^5.0.6":
+"cssnano@^5.0.4", "cssnano@^5.0.6":
   "integrity" "sha1-Oa0WYlaYD8xk+qCMm7GLtXiez6k="
   "resolved" "https://registry.nlark.com/cssnano/download/cssnano-5.0.8.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcssnano%2Fdownload%2Fcssnano-5.0.8.tgz"
   "version" "5.0.8"
@@ -4582,16 +4364,6 @@
     "jsonfile" "^6.0.1"
     "universalify" "^2.0.0"
 
-"fs-extra@^9.1.0":
-  "integrity" "sha1-WVRGDHZKjaIJS6NVS/g55rmnyG0="
-  "resolved" "https://registry.nlark.com/fs-extra/download/fs-extra-9.1.0.tgz"
-  "version" "9.1.0"
-  dependencies:
-    "at-least-node" "^1.0.0"
-    "graceful-fs" "^4.2.0"
-    "jsonfile" "^6.0.1"
-    "universalify" "^2.0.0"
-
 "fs.realpath@^1.0.0":
   "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
   "resolved" "https://registry.nlark.com/fs.realpath/download/fs.realpath-1.0.0.tgz"
@@ -4676,7 +4448,7 @@
     "is-glob" "^3.1.0"
     "path-dirname" "^1.0.0"
 
-"glob-parent@^5.1.1", "glob-parent@^5.1.2", "glob-parent@~5.1.2":
+"glob-parent@^5.1.2", "glob-parent@~5.1.2":
   "integrity" "sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ="
   "resolved" "https://registry.npmmirror.com/glob-parent/download/glob-parent-5.1.2.tgz?cache=0&sync_timestamp=1632954561933&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fglob-parent%2Fdownload%2Fglob-parent-5.1.2.tgz"
   "version" "5.1.2"
@@ -4735,7 +4507,7 @@
   "resolved" "https://registry.nlark.com/globals/download/globals-11.12.0.tgz?cache=0&sync_timestamp=1622088036473&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fglobals%2Fdownload%2Fglobals-11.12.0.tgz"
   "version" "11.12.0"
 
-"globby@^11.0.1", "globby@^11.0.2", "globby@^11.0.3", "globby@^11.0.4":
+"globby@^11.0.1", "globby@^11.0.2", "globby@^11.0.3":
   "integrity" "sha1-LLr/d8Lypi5x6bKBOme5ejowAaU="
   "resolved" "https://registry.nlark.com/globby/download/globby-11.0.4.tgz?cache=0&sync_timestamp=1629801109090&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fglobby%2Fdownload%2Fglobby-11.0.4.tgz"
   "version" "11.0.4"
@@ -4792,7 +4564,7 @@
   "resolved" "https://registry.nlark.com/graceful-fs/download/graceful-fs-4.2.8.tgz"
   "version" "4.2.8"
 
-"gray-matter@^4.0.2", "gray-matter@^4.0.3":
+"gray-matter@^4.0.3":
   "integrity" "sha1-6JPAZIJd5z6h9ffYjHqfcnQoh5g="
   "resolved" "https://registry.nlark.com/gray-matter/download/gray-matter-4.0.3.tgz"
   "version" "4.0.3"
@@ -5057,7 +4829,7 @@
   "resolved" "https://registry.nlark.com/html-void-elements/download/html-void-elements-1.0.5.tgz"
   "version" "1.0.5"
 
-"html-webpack-plugin@^5.2.0", "html-webpack-plugin@^5.3.2":
+"html-webpack-plugin@^5.3.2":
   "integrity" "sha1-ewS/gLH2/oSm0/Zsi3nWRzkyGwg="
   "resolved" "https://registry.nlark.com/html-webpack-plugin/download/html-webpack-plugin-5.3.2.tgz"
   "version" "5.3.2"
@@ -5203,10 +4975,10 @@
   "resolved" "https://registry.nlark.com/indent-string/download/indent-string-4.0.0.tgz"
   "version" "4.0.0"
 
-"infima@0.2.0-alpha.23":
-  "integrity" "sha1-LBe0c3hK6CRP2YXxJvnCekmyRSM="
-  "resolved" "https://registry.npmmirror.com/infima/download/infima-0.2.0-alpha.23.tgz"
-  "version" "0.2.0-alpha.23"
+"infima@0.2.0-alpha.26":
+  "integrity" "sha1-hYLUDvAaCdu96PDldPjGHWvAmSs="
+  "resolved" "https://registry.npmmirror.com/infima/download/infima-0.2.0-alpha.26.tgz"
+  "version" "0.2.0-alpha.26"
 
 "inflight@^1.0.4":
   "integrity" "sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk="
@@ -5660,15 +5432,6 @@
   "integrity" "sha1-TkMekrEalzFjaqH5yNHMvP2reN8="
   "resolved" "https://registry.nlark.com/isobject/download/isobject-3.0.1.tgz"
   "version" "3.0.1"
-
-"jest-worker@^26.3.0":
-  "integrity" "sha1-f3LLxNZDw2Xie5/XdfnQ6qnHqO0="
-  "resolved" "https://registry.npmmirror.com/jest-worker/download/jest-worker-26.6.2.tgz"
-  "version" "26.6.2"
-  dependencies:
-    "@types/node" "*"
-    "merge-stream" "^2.0.0"
-    "supports-color" "^7.0.0"
 
 "jest-worker@^27.0.2", "jest-worker@^27.0.6":
   "integrity" "sha1-7UKGVmGVlIiqAg6KMl3wEFl8NtQ="
@@ -6238,7 +6001,7 @@
     "@babel/runtime" "^7.12.1"
     "tiny-warning" "^1.0.3"
 
-"mini-css-extract-plugin@^1.4.0", "mini-css-extract-plugin@^1.6.0":
+"mini-css-extract-plugin@^1.6.0":
   "integrity" "sha1-gxcrT9gS+PxKCdb20W+ST1OZDKg="
   "resolved" "https://registry.npmmirror.com/mini-css-extract-plugin/download/mini-css-extract-plugin-1.6.2.tgz?cache=0&sync_timestamp=1633619160935&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fmini-css-extract-plugin%2Fdownload%2Fmini-css-extract-plugin-1.6.2.tgz"
   "version" "1.6.2"
@@ -6940,7 +6703,7 @@
   dependencies:
     "postcss-selector-parser" "^6.0.5"
 
-"postcss-loader@^5.2.0", "postcss-loader@^5.3.0":
+"postcss-loader@^5.3.0":
   "integrity" "sha1-Flf4aeSNT9sBikB3HCNeSZ7iYkQ="
   "resolved" "https://registry.nlark.com/postcss-loader/download/postcss-loader-5.3.0.tgz?cache=0&sync_timestamp=1625142952652&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss-loader%2Fdownload%2Fpostcss-loader-5.3.0.tgz"
   "version" "5.3.0"
@@ -7146,7 +6909,7 @@
     "cssesc" "^3.0.0"
     "util-deprecate" "^1.0.2"
 
-"postcss-sort-media-queries@^3.10.11", "postcss-sort-media-queries@^3.8.9":
+"postcss-sort-media-queries@^3.10.11":
   "integrity" "sha1-ITsUIufvwp4MJRm2qyWf99ULIVY="
   "resolved" "https://registry.npmmirror.com/postcss-sort-media-queries/download/postcss-sort-media-queries-3.12.13.tgz"
   "version" "3.12.13"
@@ -7180,7 +6943,7 @@
   "resolved" "https://registry.nlark.com/postcss-zindex/download/postcss-zindex-5.0.1.tgz"
   "version" "5.0.1"
 
-"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.2.10", "postcss@^8.2.15", "postcss@^8.2.2", "postcss@^8.2.4", "postcss@^8.2.9", "postcss@^8.3.5", "postcss@^8.3.6":
+"postcss@^7.0.0 || ^8.0.1", "postcss@^8.0.9", "postcss@^8.1.0", "postcss@^8.2.15", "postcss@^8.2.2", "postcss@^8.2.4", "postcss@^8.3.5", "postcss@^8.3.6":
   "integrity" "sha1-mHVMqgbE7p61nMSL0HO7a9NDfDE="
   "resolved" "https://registry.npmmirror.com/postcss/download/postcss-8.3.9.tgz"
   "version" "8.3.9"
@@ -7207,7 +6970,7 @@
   "resolved" "https://registry.nlark.com/pretty-time/download/pretty-time-1.1.0.tgz"
   "version" "1.1.0"
 
-"prism-react-renderer@^1.1.1", "prism-react-renderer@^1.2.1":
+"prism-react-renderer@^1.2.1":
   "integrity" "sha1-OSRgrPY1QJYOXjyqaZ2FEmTpm4k="
   "resolved" "https://registry.nlark.com/prism-react-renderer/download/prism-react-renderer-1.2.1.tgz"
   "version" "1.2.1"
@@ -7229,7 +6992,7 @@
   dependencies:
     "asap" "~2.0.3"
 
-"prompts@^2.4.0", "prompts@^2.4.1":
+"prompts@^2.4.1":
   "integrity" "sha1-e1fnOzpIAprRDr1E90sBcipMsGk="
   "resolved" "https://registry.npmmirror.com/prompts/download/prompts-2.4.2.tgz"
   "version" "2.4.2"
@@ -7445,7 +7208,7 @@
   "resolved" "https://registry.npmmirror.com/react-is/download/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react-json-view@^1.21.1":
+"react-json-view@^1.21.3":
   "integrity" "sha1-8YQgnujxvzdPsMQbCBPP9UVJxHU="
   "resolved" "https://registry.nlark.com/react-json-view/download/react-json-view-1.21.3.tgz"
   "version" "1.21.3"
@@ -7921,7 +7684,7 @@
   dependencies:
     "glob" "^7.1.3"
 
-"rtl-detect@^1.0.2", "rtl-detect@^1.0.3":
+"rtl-detect@^1.0.3":
   "integrity" "sha1-QK4OpzAqFQuWvHWvfXSWBzkuysY="
   "resolved" "https://registry.nlark.com/rtl-detect/download/rtl-detect-1.0.4.tgz"
   "version" "1.0.4"
@@ -8111,13 +7874,6 @@
     "range-parser" "~1.2.1"
     "statuses" "~1.5.0"
 
-"serialize-javascript@^5.0.1":
-  "integrity" "sha1-eIbshIBJpGJGepfT2Rjrsqr5NPQ="
-  "resolved" "https://registry.nlark.com/serialize-javascript/download/serialize-javascript-5.0.1.tgz"
-  "version" "5.0.1"
-  dependencies:
-    "randombytes" "^2.1.0"
-
 "serialize-javascript@^6.0.0":
   "integrity" "sha1-765diPRdeSQUHai1w6en5mP+/rg="
   "resolved" "https://registry.nlark.com/serialize-javascript/download/serialize-javascript-6.0.0.tgz"
@@ -8256,12 +8012,12 @@
   "resolved" "https://registry.nlark.com/sisteransi/download/sisteransi-1.0.5.tgz"
   "version" "1.0.5"
 
-"sitemap@^6.3.6":
-  "integrity" "sha1-tLxO3zbedCQFp1crw+RnukhLhS4="
-  "resolved" "https://registry.nlark.com/sitemap/download/sitemap-6.4.0.tgz"
-  "version" "6.4.0"
+"sitemap@^7.0.0":
+  "integrity" "sha1-AivvTfjLpC444f53A58jTKsDcrY="
+  "resolved" "https://registry.nlark.com/sitemap/download/sitemap-7.0.0.tgz"
+  "version" "7.0.0"
   dependencies:
-    "@types/node" "^14.14.28"
+    "@types/node" "^15.0.1"
     "@types/sax" "^1.2.1"
     "arg" "^5.0.0"
     "sax" "^1.2.4"
@@ -8600,13 +8356,6 @@
   dependencies:
     "has-flag" "^3.0.0"
 
-"supports-color@^7.0.0":
-  "integrity" "sha1-G33NyzK4E4gBs+R4umpRyqiWSNo="
-  "resolved" "https://registry.nlark.com/supports-color/download/supports-color-7.2.0.tgz"
-  "version" "7.2.0"
-  dependencies:
-    "has-flag" "^4.0.0"
-
 "supports-color@^7.1.0":
   "integrity" "sha1-G33NyzK4E4gBs+R4umpRyqiWSNo="
   "resolved" "https://registry.nlark.com/supports-color/download/supports-color-7.2.0.tgz"
@@ -8668,7 +8417,7 @@
   "resolved" "https://registry.nlark.com/tapable/download/tapable-2.2.1.tgz"
   "version" "2.2.1"
 
-"terser-webpack-plugin@^5.1.1", "terser-webpack-plugin@^5.1.3":
+"terser-webpack-plugin@^5.1.3":
   "integrity" "sha1-rRvnY5scvj6kn6uZXL5yJLMXR6E="
   "resolved" "https://registry.nlark.com/terser-webpack-plugin/download/terser-webpack-plugin-5.2.4.tgz"
   "version" "5.2.4"
@@ -9187,7 +8936,7 @@
   "resolved" "https://registry.nlark.com/vlq/download/vlq-1.0.1.tgz"
   "version" "1.0.1"
 
-"wait-on@^5.2.1", "wait-on@^5.3.0":
+"wait-on@^5.3.0":
   "integrity" "sha1-WE4X1LP+e0asK5+OXhAsAFwndsc="
   "resolved" "https://registry.nlark.com/wait-on/download/wait-on-5.3.0.tgz"
   "version" "5.3.0"
@@ -9218,7 +8967,7 @@
   "resolved" "https://registry.npm.taobao.org/web-namespaces/download/web-namespaces-1.1.4.tgz?cache=0&sync_timestamp=1615459594430&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fweb-namespaces%2Fdownload%2Fweb-namespaces-1.1.4.tgz"
   "version" "1.1.4"
 
-"webpack-bundle-analyzer@^4.4.0", "webpack-bundle-analyzer@^4.4.2":
+"webpack-bundle-analyzer@^4.4.2":
   "integrity" "sha1-OYmM9iABeCQJENYpcF8PNJP31mY="
   "resolved" "https://registry.nlark.com/webpack-bundle-analyzer/download/webpack-bundle-analyzer-4.4.2.tgz"
   "version" "4.4.2"
@@ -9291,7 +9040,7 @@
     "ansi-colors" "^3.0.0"
     "uuid" "^3.3.2"
 
-"webpack-merge@^5.7.3", "webpack-merge@^5.8.0":
+"webpack-merge@^5.8.0":
   "integrity" "sha1-Kznb8ir4d3atdEw5AiNzHTCmj2E="
   "resolved" "https://registry.nlark.com/webpack-merge/download/webpack-merge-5.8.0.tgz"
   "version" "5.8.0"
@@ -9320,7 +9069,7 @@
   "resolved" "https://registry.nlark.com/webpack-sources/download/webpack-sources-3.2.1.tgz?cache=0&sync_timestamp=1631547057681&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fwebpack-sources%2Fdownload%2Fwebpack-sources-3.2.1.tgz"
   "version" "3.2.1"
 
-"webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@^5.0.0", "webpack@^5.1.0", "webpack@^5.20.0", "webpack@^5.28.0", "webpack@^5.40.0", "webpack@>=2", "webpack@>=4.41.1 || 5.x", "webpack@3 || 4 || 5":
+"webpack@^4.0.0 || ^5.0.0", "webpack@^4.27.0 || ^5.0.0", "webpack@^4.4.0 || ^5.0.0", "webpack@^5.0.0", "webpack@^5.1.0", "webpack@^5.20.0", "webpack@^5.40.0", "webpack@>=2", "webpack@>=4.41.1 || 5.x", "webpack@3 || 4 || 5":
   "integrity" "sha1-34qtcrYXqdDbjInU9BB4TukzINc="
   "resolved" "https://registry.npmmirror.com/webpack/download/webpack-5.58.1.tgz?cache=0&sync_timestamp=1633701225260&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fwebpack%2Fdownload%2Fwebpack-5.58.1.tgz"
   "version" "5.58.1"
